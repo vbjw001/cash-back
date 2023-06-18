@@ -1,0 +1,85 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"app-plus": {
+				"titleNView": {
+					"type": "transparent",//透明渐变导航栏 App-nvue 2.4.4+ 支持
+					"searchInput": {
+						"backgroundColor": "rgba(218,218,218,0.7)",
+						"borderRadius": "16px", //输入框圆角
+						"placeholder": "请输入搜索内容",
+						"disabled": false ,//disable时点击输入框不置焦，可以跳到新页面搜索
+						"placeholderColor": "#606266"
+					}
+				}
+			}
+		}
+	},
+	{
+		"path": "pages/category/category",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},
+	{
+		"path": "pages/user/user",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},
+	{
+		"path": "pages/record/record",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},
+	{
+		"path": "pages/user/login",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	}
+	
+	],
+	"globalStyle": {
+		// "navigationBarTextStyle": "black",
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": {
+				"type": "transparent"
+			},
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#d0d0d0",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/index_hui.png",
+			"selectedIconPath": "static/tabbar/index_hei.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/category/category",
+			"iconPath": "static/tabbar/category_hui.png",
+			"selectedIconPath": "static/tabbar/category_hei.png",
+			"text": "分类"
+		},
+		{
+			"pagePath": "pages/record/record",
+			"iconPath": "static/tabbar/record_hui.png",
+			"selectedIconPath": "static/tabbar/record_hei.png",
+			"text": "核销记录"
+		},{
+			"pagePath": "pages/user/user",
+			"iconPath": "static/tabbar/my_hui.png",
+			"selectedIconPath": "static/tabbar/my_hei.png",
+			"text": "我的"
+		}]
+	}
+}
